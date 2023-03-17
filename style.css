@@ -21,7 +21,7 @@ header a {
     
 }
 
-header button {
+ button {
  background-color: var(--yellow);
   color: var(--blue);
  font-family: 'Cardo';
@@ -45,8 +45,24 @@ header li {
     list-style-type: none;
 }
 
-/* Hero Style */
 
- section .hero{
-    background-color: var(--blue);
-}
+.hero{ background-color: var(--blue);}
+
+
+.hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55; color: white;}
+
+.hero-title-magic{ font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.1;
+ color: white;}
+
+ .hero-text{
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 19px;
+ line-height: 1.8;
+ color: var(--light-blue);
+ }
