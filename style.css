@@ -16,9 +16,8 @@ header a {
     font-size: 17px;
     line-height: 1.25
     letter-spacing: -0.01em;
-    color: #FFFFFF;
+    color : #FFFFFF;
     text-decoration: none ;
-    
 }
 
  button {
@@ -31,6 +30,28 @@ header a {
  line-height: 1.25
 }
 
+.button-invers{
+    background-color: white;
+    border: 2px solid var(--yellow);
+    color: var(--blue);
+   font-family: 'Cardo';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 1.25
+
+}
+
+.promo-button{
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: #FFFFFF;
+   font-family: 'Cardo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 1.25
+}
 .logo {
     color: white;
     font-family: 'Inter' , sans-serif ;
@@ -45,24 +66,194 @@ header li {
     list-style-type: none;
 }
 
+body {
+    color: #FFFFFF;
+}
 
 .hero{ background-color: var(--blue);}
 
 
-.hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55; color: white;}
+.hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55;}
 
 .hero-title-magic{ font-family: 'Cardo';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 1.1;
- color: white;}
+ }
 
- .hero-text{
-    font-family: 'Inter';
- font-style: normal;
+.hero-text{
+ font-family: 'Inter';
  font-weight: 400;
  font-size: 19px;
  line-height: 1.8;
  color: var(--light-blue);
  }
+ 
+.hero-link{
+    color: white;
+ font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 19px;
+ line-height: 1.25;
+ }
+.hero-properties{
+ font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 120%;
+ }
+
+.hero-properties-text{
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 170%;
+ }
+
+ /* Section 2 */
+.bookshelf {
+    color: var(--blue );
+ }
+
+.bookshelf-title{
+ color: var(--blue);
+ font-family: 'Cardo';
+  font-style: normal;
+ font-weight: 700;
+ font-size: 45px;
+ line-height: 120%;
+ }
+
+.bokkshelf-list{  color: var(--blue );
+    font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 120%;
+ }
+
+.bookshelf-text{
+    color: #969AA0;
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 19px;
+ line-height: 180%;
+ }
+
+.bookshelf-properties{
+    color: var(--blue);
+    ont-family: 'Cardo';
+ font-style: normal;
+   font-weight: 700;
+ font-size: 24px;
+ line-height: 120%;
+ }
+
+.bookshelf-properties-text{
+    color: #969AA0;
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 170%;
+ }
+
+ /* Section 3 */
+
+.author{
+    background-color: var(--light-blue);
+    color: #969AA0;
+ }
+
+.author-title{
+    color: var(--blue);
+    font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 45px;
+ line-height: 120%;
+ }
+
+.author-text{
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 19px;
+ line-height: 180%;
+ }
+
+.author-text-value{
+    color: var(--blue);
+    font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 55px;
+ line-height: 120%;
+ }
+
+.author-name{
+    color: var(--yellow);
+    font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 120%;
+ }
+
+/* Section 4 */
+
+.partners-title{
+    color: var(--blue);
+     font-family: 'Cardo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 45px;
+ line-height: 120%;
+}
+
+.partners-names{
+    color: var(--blue);
+    font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+}
+
+.partners-text{
+    color: #969AA0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+}
+
+/* Section 5 */
+
+.promo{
+    background-color: var(--blue);
+}
+
+.promo-title{
+    font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 120%;
+}
+
+.promo-text{
+    color: var(--light-blue);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 180%;
+}
+
