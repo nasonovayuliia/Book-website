@@ -52,6 +52,19 @@ header a {
    font-size: 19px;
    line-height: 1.25
 }
+
+.button-blue{
+    background-color: var(--blue);
+    color: #FFFFFF;
+   font-family: 'Cardo';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 1.25    
+}
+
+
+
 .logo {
     color: white;
     font-family: 'Inter' , sans-serif ;
@@ -257,3 +270,243 @@ font-size: 19px;
 line-height: 180%;
 }
 
+/* Section 6 */
+
+.chapter{ 
+    background-color: var(--light-blue);
+    color: var(--blue);
+}
+
+.chapter-title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+}
+
+.chapter-header{
+    font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+}
+
+.chapter-text{ color: #969AA0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 180%;
+}
+
+.chapter-specifity{
+    font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+}
+
+.chapter-value{color: #969AA0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+}
+
+.chapter-contact{ color: #969AA0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+}
+
+.chapter-contact span{
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* Section 7 */
+
+.review-header{color: var(--blue);
+font-family: 'Cardo';
+font-style: normal;
+ font-weight: 700;
+font-size: 45px;
+line-height: 120%;   
+}
+
+.review-text{color: #969AA0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%   
+}
+
+.review>a{
+    text-decoration: none;
+    color: var(--blue);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;
+}
+
+.review-box{
+    background-color: var(--blue);
+}
+
+.review-name{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;   
+}
+
+.review-title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;   
+}
+
+.review-name-text{
+    color: var(--light-blue);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;   
+}
+
+/* Section 8 */
+
+.resources{
+    background-color: var(--light-blue);
+}
+
+.resources-header{
+    color: var(--blue);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;   
+}
+
+.resources-block{
+    background-color: white;
+}
+
+.resources-title{color: var(--blue);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;   
+}
+
+.resources-text{color: #969AA0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;   
+}
+
+.resources a{color: var(--blue);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;    
+}
+
+.resources-date{color: var(--blue);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 125%;   
+}
+
+/* Section 9 */
+
+.subscribe{
+    background-color: var(--yellow);
+}
+
+.subscribe-title{color: var(--blue);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;   
+}
+
+.subscribe-text{color: var(--blue);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;   
+}
+
+.subscribe a{
+    background-color: white;
+    color: #969AA0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 180%;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--blue);
+    color: white;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 205%;
+}
+
+footer a{
+color: white;
+text-decoration: none;
+}
+
+.footer-title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;   
+}
+
+.footer-adress{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;    
+}
+
+.footer-copyright{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;   
+}
