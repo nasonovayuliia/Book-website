@@ -4,7 +4,20 @@
     --light-blue: #F6F8FC;
 }
 
+* ,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+
 /* Header Styles */
+
+.logotype .{
+    display: flex;
+}
+
 header {
     background-color: var(--blue);
 }
@@ -19,6 +32,20 @@ header a {
     color : #FFFFFF;
     text-decoration: none ;
 }
+
+.nav{
+    display: flex;
+}
+
+.navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 1300 px;
+   margin-top: auto;
+   margin-right: auto;
+}
+   
 
  button {
  background-color: var(--yellow);
