@@ -70,7 +70,8 @@ header a {
 }
 
  button {
-    width: 180px;
+    padding: 0px;
+    width: 220px;
  background-color: var(--yellow);
   color: var(--blue);
  font-family: 'Cardo';
@@ -134,16 +135,24 @@ body {
     color: #FFFFFF;
 }
 
-.hero{ background-color: var(--blue);}
+.hero{ 
+    background-color: var(--blue);
+    box-sizing: border-box;
+    padding-top: 95px;
+}
 
 
-.hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55;}
+.hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55;
+margin-top: 142px; margin-left: 50px;}
 
 .hero-title-magic{ font-family: 'Cardo';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 1.1;
+    width: 614px;
+    margin-top: 16px;
+ margin-bottom: 0px;
  }
 
 .hero-text{
@@ -152,6 +161,9 @@ body {
  font-size: 19px;
  line-height: 1.8;
  color: var(--light-blue);
+ width: 614px;
+ margin-top: 32px;
+ margin-bottom: 49px;
  }
  
 .hero-link{
@@ -161,6 +173,8 @@ body {
  font-weight: 700;
  font-size: 19px;
  line-height: 1.25;
+ padding: 0px;
+ margin-left: 37px;
  }
 .hero-properties{
  font-family: 'Cardo';
@@ -168,7 +182,22 @@ body {
  font-weight: 700;
  font-size: 24px;
  line-height: 120%;
+ display: flex;
+ margin: 0px;
  }
+
+ .hero-div {
+    margin-top: 49px;
+    margin-bottom: 251px;
+    padding: 0px;
+    display: flex;
+ }
+
+.hero-img{
+    display: flex;
+    margin-left: auto;
+    margin-right: 310px;
+}
 
 .hero-properties-text{
     font-family: 'Inter';
@@ -176,6 +205,8 @@ body {
  font-weight: 400;
  font-size: 18px;
  line-height: 170%;
+ display: flex;
+ margin-right: 80px;
  }
 
  /* Section 2 */
