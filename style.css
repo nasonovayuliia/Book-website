@@ -11,8 +11,7 @@
 }
 
 body{
-    margin: 0;
-    width: 1920px;
+    margin: auto;
 }
 
 
@@ -31,7 +30,7 @@ body{
 }
 
 
-header {
+header {padding-left: 281px;
     background-color: var(--blue);
 }
 
@@ -139,11 +138,18 @@ body {
     background-color: var(--blue);
     box-sizing: border-box;
     padding-top: 95px;
+    padding-left: 281px;
+    padding-bottom: 20px;
+    background-image: url(./images/book-hero.jpg) ;
+    background-repeat: no-repeat;
+    background-position: 990px 
 }
 
 
+   
+
 .hero-title{ font-family: 'Cardo';   font-style: italic;   font-weight: 400;   font-size: 24px;  line-height: 1.55;
-margin-top: 142px; margin-left: 50px;}
+margin-top: 142px; margin-left: 50px; }
 
 .hero-title-magic{ font-family: 'Cardo';
     font-style: normal;
@@ -193,11 +199,6 @@ margin-top: 142px; margin-left: 50px;}
     display: flex;
  }
 
-.hero-img{
-    display: flex;
-    margin-left: auto;
-    margin-right: 310px;
-}
 
 .hero-properties-text{
     font-family: 'Inter';
@@ -221,6 +222,24 @@ margin-top: 142px; margin-left: 50px;}
  font-weight: 700;
  font-size: 45px;
  line-height: 120%;
+ margin-top: 145px;
+ margin-left: 723px;
+ }
+
+ .bookshelf-div-list{
+    display: flex;
+    padding-left: 340px;
+    margin-left: 311px;
+    margin-right: 405px;
+    background-image: url(./images/book2.jpg), url(./images/book-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 390px;
+    background-position: 0px -10px, 687px -10px;
+    margin-bottom: 140px;
+ }
+
+ .bookshelf-div-list > li{
+    margin-right: 405px;
  }
 
 .bokkshelf-list{  color: var(--blue );
@@ -229,6 +248,8 @@ margin-top: 142px; margin-left: 50px;}
  font-weight: 700;
  font-size: 32px;
  line-height: 120%;
+ margin: 0px;
+
  }
 
 .bookshelf-text{
@@ -238,6 +259,7 @@ margin-top: 142px; margin-left: 50px;}
  font-weight: 400;
  font-size: 19px;
  line-height: 180%;
+ width: 262px;
  }
 
 .bookshelf-properties{
@@ -247,8 +269,17 @@ margin-top: 142px; margin-left: 50px;}
    font-weight: 700;
  font-size: 24px;
  line-height: 120%;
+ margin: 0px;
+ padding-right: 76px;
  }
 
+ .bookshelf-properties-list{
+    display: flex;
+    padding-left: 0px;
+    padding-right: 76px;
+ }
+
+ 
 .bookshelf-properties-text{
     color: #969AA0;
     font-family: 'Inter';
@@ -256,6 +287,8 @@ margin-top: 142px; margin-left: 50px;}
  font-weight: 400;
  font-size: 18px;
  line-height: 170%;
+ margin bottom: 30px;
+ margin top: 0px
  }
 
  /* Section 3 */
