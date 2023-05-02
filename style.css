@@ -15,7 +15,9 @@ body{
 }
 
 
-
+li{
+    text-decoration: none;
+}
 /* Header Styles */
 
 .navigation{
@@ -92,6 +94,14 @@ header a {
 
 }
 
+.free-trial{
+    width: 434px;
+    height: 65px;
+    border: none;
+    margin-left: 743px;
+    margin-top: 79px;
+}
+
 .promo-button{
     margin-top: 31px;
     margin-left: 310px;
@@ -113,10 +123,23 @@ header a {
    font-style: normal;
    font-weight: 700;
    font-size: 19px;
-   line-height: 1.25    
+   line-height: 1.25 
+   
 }
 
-
+.button-blue-subscribe{
+    width: 300px;
+    background-color: var(--blue);
+    color: #FFFFFF;
+   font-family: 'Cardo';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 1.25    ;
+   padding-top: 15px;
+   padding-bottom: 13px;
+   border: none;
+}
 
 .logo {
     color: white;
@@ -446,17 +469,21 @@ margin-top: 44px;
 
 .chapter-list{
     display: flex;
-    width: 1300px;
+    width: 1340px;
     flex-wrap: wrap;
     margin-left: 310px;
+    padding-left: 0px;
 }
 
 .chapter-list > li{
+    display: inline-block;
+    text-decoration: none;
     background-color: white;
     width: 630px;
     height: 250px;
-    
-    
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-left: 54px;
 }
 
 .chapter-title{
@@ -477,14 +504,20 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 120%;
+margin: 0px;
+padding-top: 48px;
 }
 
-.chapter-text{ color: #969AA0;
+.chapter-text{ 
+    width: 524px;
+    color: #969AA0;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 19px;
 line-height: 180%;
+margin: 0px;
+padding-top: 14px;
 }
 
 .chapter-specifity{
@@ -493,6 +526,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 120%;
+margin: 0px;
+
 }
 
 .chapter-value{color: #969AA0;
@@ -501,6 +536,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 170%;
+margin: 0px;
+padding-right: 50px;
 }
 
 .chapter-contact{ color: #969AA0;
@@ -509,32 +546,76 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 170%;
+width: 350px;
+margin-left: 801px;
+margin-top: 32px;
 }
 
-.chapter-contact span{
+.chapter-contact > span{
     color: var(--blue);
     text-decoration: underline;
 }
 
+.chapter-properties{
+display: flex;
+align-self: flex-end;
+padding-left: 0px;
+}
+
+.chapter-properties > li{
+    display: flex;
+    align-content: space-between;
+    padding-top: 17px;
+}
+
 /* Section 7 */
 
-.review-header{color: var(--blue);
+.review{
+    flex-direction: column;
+    
+}
+
+.review-header{
+    display: flex;
+    width: 326px;
+color: var(--blue);
 font-family: 'Cardo';
 font-style: normal;
  font-weight: 700;
 font-size: 45px;
 line-height: 120%;   
+margin-top: 240px;
+margin-left: 310px;
+margin-bottom: 0px;
 }
 
-.review-text{color: #969AA0;
+.review-list{
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 680px;
+    margin-left: 111px;
+    margin-top: 141px;
+    align-content: center;
+}
+
+
+.review-text{
+    width: 418px;
+    color: #969AA0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
-    line-height: 180%   
+    line-height: 180%  ;
+    margin-top: 56px;
+    margin-left: 310px;
+    margin-bottom: 75px;
+    
 }
 
-.review>a{
+.review > a{
     text-decoration: none;
     color: var(--blue);
     font-family: 'Inter';
@@ -542,10 +623,27 @@ line-height: 120%;
     font-weight: 400;
     font-size: 19px;
     line-height: 180%;
+    margin-left: 310px;
 }
 
 .review-box{
+    width: 370px;
+    height: 309px;
     background-color: var(--blue);
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-image: url(./images/martin-philips.png), url(./images/christina-louis.png),
+    url(./images/christina-louis.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px, 30px 30px, 30px 30px;
+}
+
+
+.review-name-main{
+    display: flex;
+    height: 930px;
+    margin: 0px;
+
 }
 
 .review-name{
@@ -554,6 +652,9 @@ line-height: 120%;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;   
+    margin-top: 54px;
+    margin-left: 136px;
+    text-decoration: none;
 }
 
 .review-title{
@@ -561,22 +662,27 @@ line-height: 120%;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 120%;   
+    line-height: 120%;  
+    margin-top: 60.33px;
+    margin-left: 31px; 
 }
 
-.review-name-text{
+.review-all-text{
     color: var(--light-blue);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
     line-height: 180%;   
+    margin-top: 12px;
+    margin-left: 31px; 
 }
 
 /* Section 8 */
 
 .resources{
     background-color: var(--light-blue);
+    height: 1016px;
 }
 
 .resources-header{
@@ -586,10 +692,21 @@ line-height: 120%;
     font-weight: 700;
     font-size: 45px;
     line-height: 120%;   
+    padding-top: 145px;
+    margin-left: 750px;
+    margin-bottom: 72px;
+}
+
+.resources-list{
+    display: flex;
+    margin-left: 310px;
 }
 
 .resources-block{
+    
     background-color: white;
+    width: 410px;
+    margin-right: 35px;
 }
 
 .resources-title{color: var(--blue);
@@ -597,7 +714,9 @@ line-height: 120%;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 120%;   
+    line-height: 120%;  
+    margin-top: 27px; 
+    margin-left: 31px;
 }
 
 .resources-text{color: #969AA0;
@@ -605,7 +724,9 @@ line-height: 120%;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
-    line-height: 180%;   
+    line-height: 180%;  
+    margin-top: 14px; 
+    margin-left: 31px;
 }
 
 .resources a{color: var(--blue);
@@ -624,10 +745,27 @@ line-height: 120%;
     line-height: 125%;   
 }
 
+.resources-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
 /* Section 9 */
 
 .subscribe{
+    background-color: white;
+}
+
+.subscribe-div{
     background-color: var(--yellow);
+    width: 1300px;
+    height: 505px;
+    margin-left: 310px;
+    margin-top: 161px;
+margin-bottom: 150px;
 }
 
 .subscribe-title{color: var(--blue);
@@ -636,6 +774,8 @@ line-height: 120%;
     font-weight: 700;
     font-size: 45px;
     line-height: 120%;   
+    padding-top: 121px;
+    margin-left: 415px;
 }
 
 .subscribe-text{color: var(--blue);
@@ -644,9 +784,15 @@ line-height: 120%;
     font-weight: 400;
     font-size: 19px;
     line-height: 180%;   
+    width: 657px;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 20px;
+    margin-bottom: 38px;
 }
 
 .subscribe a{
+    text-decoration: none;
     background-color: white;
     color: #969AA0;
     font-family: 'Inter';
@@ -654,6 +800,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 17px;
 line-height: 180%;
+padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 24px;
+padding-right:390px;
+margin-left: 230px;
 }
 
 /* Footer */
@@ -662,10 +813,10 @@ footer {
     background-color: var(--blue);
     color: white;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 205%;
+ font-style: normal;
+ font-weight: 400;
+  font-size: 18px;
+ line-height: 205%;
 }
 
 footer a{
@@ -695,4 +846,15 @@ text-decoration: none;
     font-weight: 400;
     font-size: 17px;
     line-height: 200%;   
+}
+
+
+.social-media{
+    display: flex;
+    text-decoration: none;
+}
+
+.footer-main{
+    display: flex;
+    align-items: flex-start;
 }
